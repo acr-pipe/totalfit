@@ -1,0 +1,9 @@
+.bgwhite {
+  background: #fff;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+  background: #D0FF0E !important;
+  border-color: #a9d00a !important;
+  color: #8f00bf !important;
+}

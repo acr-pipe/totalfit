@@ -1,0 +1,37 @@
+.bgwhite {
+  background-color: #fff;
+}
+
+.divlesion {
+  min-height: 100px;
+  height: auto;
+}
+
+.dropzone {
+  background: transparent;
+  border: dashed 2px #d2ff52;
+  border-radius: 0.5em;
+  transition: 0.1s ease;
+}
+
+.dropzone:hover {
+  background: rgba(0,0,0,0.1);
+}
+
+.pbtn {
+  cursor: pointer;
+}
+
+.thumbex {
+  filter: grayscale();
+}
+
+.thumbex:hover {
+  filter: none;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+  background: #D0FF0E !important;
+  border-color: #a9d00a !important;
+  color: #8f00bf !important;
+}

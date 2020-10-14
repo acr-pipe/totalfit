@@ -1,0 +1,44 @@
+.tdhover {
+  transition: 0.1s ease;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.tdhover:hover {
+  background: rgba(210,255,82,1);
+  background: -moz-linear-gradient(left, #D0FF0E 0%, rgba(145,232,66,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #D0FF0E), color-stop(100%, rgba(145,232,66,1)));
+  background: -webkit-linear-gradient(left, #D0FF0E 0%, rgba(145,232,66,1) 100%);
+  background: -o-linear-gradient(left, #D0FF0E 0%, rgba(145,232,66,1) 100%);
+  background: -ms-linear-gradient(left, #D0FF0E 0%, rgba(145,232,66,1) 100%);
+  background: linear-gradient(to right, #D0FF0E 0%, rgba(145,232,66,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D0FF0E', endColorstr='#91e842', GradientType=1 );
+  cursor: pointer;
+}
+
+.tyclass {
+  transition: 0.1s ease;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.tyclass:hover {
+  color: rgba(210,255,82,1);
+  cursor: pointer;
+}
+
+.tyclass.active {
+  color: rgba(210,255,82,1);
+}
+
+.thc {
+  font-size: 16px !important;
+  font-style: uppercase !important;
+}
+
+th, td {
+  height: 100px !important;
+  width: 100px !important;
+}
+
+.bgwhite {
+  background: #fff;
+}

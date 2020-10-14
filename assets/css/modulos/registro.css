@@ -1,0 +1,50 @@
+.bgwhite {
+  background: #fff;
+}
+
+.br-txt {
+  border-radius: 2.5em 0 0 2.5em;
+}
+
+.br-txt-2 {
+  border-radius: 2.5em;
+}
+
+.br-icon {
+  border-radius: 0 2.5em 2.5em 0 !important;
+}
+
+.txtlesion {
+  height: auto;
+  min-height: 100px;
+}
+
+.divlesion {
+  min-height: 100px;
+  height: auto;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+  background: #D0FF0E !important;
+  border-color: #a9d00a !important;
+}
+
+.custom-switch .custom-control-input:checked~.custom-control-label::after {
+  background-color: #b432df !important;
+}
+
+.list-group-item.active {
+  border-color: #710096;
+  background: #710096;
+  background: -moz-linear-gradient(left, #8f00bf 0%, #710096 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #8f00bf), color-stop(100%, #710096));
+  background: -webkit-linear-gradient(left, #8f00bf 0%, #710096 100%);
+  background: -o-linear-gradient(left, #8f00bf 0%, #710096 100%);
+  background: -ms-linear-gradient(left, #8f00bf 0%, #710096 100%);
+  background: linear-gradient(to right, #8f00bf 0%, #710096 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f00bf', endColorstr='#710096', GradientType=1 );
+}
+
+.border-bggreen {
+  border: solid 1px #D0FF0E;
+}
